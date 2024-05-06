@@ -520,7 +520,7 @@ const editStorageData = (row: any) => {
   });
 };
 
-//areaInfor.get({ recorderData: ..., callBack });
+//areaInfor.get({ recorderData: ..., callBack });1111
 const recoverStorageData = (row: any) => {
   storageAdmin.recoverStorageData({
     recorderData: row,
