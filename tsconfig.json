@@ -1,0 +1,24 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ],
+  "compilerOptions": {
+    "types": ["@layui/layui-vue/types/components",
+    "@layui/layer-vue/types/components",
+    "unplugin-vue-define-options",
+    "vite/client"
+    ],
+    "noImplicitAny": false,
+    "allowJs": true,
+    "module": "esnext"
+  } 
+}
