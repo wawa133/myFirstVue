@@ -663,7 +663,9 @@ const tableColumns = [
 .leaderAreaSelect .leaderContent,
 .leaderUnitSelect .leaderContent {
   /* display: none; */
-  height: 0px;
+  /* height: 0px; */
+  height: auto;
+  padding: 1rem 1rem;
   overflow: hidden;
   transition: 0.5s;
 }
@@ -752,8 +754,7 @@ const tableColumns = [
   /* min-height: 60px; */
   /* height: 60px; */
   padding: 1rem 1rem;
-  height: 0px;
-  padding: 0rem 0rem;
+  height: auto;
   border-bottom: 1px solid #c3c3c9;
   transition: 0.5s;
   /* overflow: hidden; */

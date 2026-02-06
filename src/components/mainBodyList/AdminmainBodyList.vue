@@ -535,7 +535,9 @@ const tableColumns = [
 .leaderAreaSelect .leaderContent,
 .leaderUnitSelect .leaderContent {
   /* display: none; */
-  height: 0px;
+  /* height: 0px; */
+  height: auto;
+  padding: 1rem 1rem;
   overflow: hidden;
   transition: 0.5s;
 }

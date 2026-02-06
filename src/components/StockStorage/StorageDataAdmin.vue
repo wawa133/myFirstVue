@@ -252,7 +252,7 @@ const userFormT = ref(false);
 const pageTable = reactive({ current: 1, limit: 50, total: 100 });
 const pagePathEdit = reactive({ current: 1, limit: 50, total: 100 });
 const selectedKeys = ref([]);
-const labelPosition3 = ref("left");
+const labelPosition3 = ref<"left" | "right" | "top" | undefined>("left");
 
 const tableFielter = reactive<{
   unitType?: string;

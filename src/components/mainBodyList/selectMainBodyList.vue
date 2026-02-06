@@ -409,7 +409,7 @@ const tableColumns = [
   /* min-height: 60px; */
   /* height: 60px; */
   padding: 1rem 1rem;
-  height: 0px;
+  height: 60px;
   padding: 0rem 0rem;
   border-bottom: 1px solid #c3c3c9;
   transition: 0.5s;
